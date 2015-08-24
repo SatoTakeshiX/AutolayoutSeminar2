@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="euT-pe-ZFe">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Practice4ModelAnswer-->
+        <scene sceneID="AKZ-L9-3zr">
+            <objects>
+                <viewController storyboardIdentifier="Practice4ForAnimation" title="Practice4ModelAnswer" useStoryboardIdentifierAsRestorationIdentifier="YES" id="euT-pe-ZFe" customClass="Practice4ForAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="knd-XN-4Kz"/>
+                        <viewControllerLayoutGuide type="bottom" id="5U1-3o-Wtt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bzv-d6-46u">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBf-DE-zha" userLabel="contentView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ma-1W-DHM">
+                                        <rect key="frame" x="310" y="300" width="270" height="192"/>
+                                        <color key="backgroundColor" red="0.2156862745" green="0.4941176471" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQt-0o-ib0">
+                                        <rect key="frame" x="20" y="300" width="270" height="192"/>
+                                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVa-il-aBY">
+                                        <rect key="frame" x="20" y="88" width="560" height="192"/>
+                                        <color key="backgroundColor" red="0.8862745098" green="0.0" blue="0.31096138849999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gVa-il-aBY" secondAttribute="trailing" constant="20" id="0gD-T7-i1c"/>
+                                    <constraint firstItem="gVa-il-aBY" firstAttribute="height" secondItem="SQt-0o-ib0" secondAttribute="height" id="4KS-lI-6cA"/>
+                                    <constraint firstItem="gVa-il-aBY" firstAttribute="leading" secondItem="ZBf-DE-zha" secondAttribute="leading" constant="20" id="6Yc-sb-FTl"/>
+                                    <constraint firstAttribute="bottom" secondItem="1Ma-1W-DHM" secondAttribute="bottom" constant="64" id="6wM-gC-maN"/>
+                                    <constraint firstItem="SQt-0o-ib0" firstAttribute="top" secondItem="gVa-il-aBY" secondAttribute="bottom" constant="20" id="7M8-6Z-33B"/>
+                                    <constraint firstItem="SQt-0o-ib0" firstAttribute="leading" secondItem="ZBf-DE-zha" secondAttribute="leading" constant="20" id="Ees-Aj-1qv"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Ma-1W-DHM" secondAttribute="trailing" constant="20" id="Ek5-Tc-9fu"/>
+                                    <constraint firstItem="gVa-il-aBY" firstAttribute="top" secondItem="ZBf-DE-zha" secondAttribute="top" constant="88" id="Huj-DW-8DK"/>
+                                    <constraint firstAttribute="bottom" secondItem="SQt-0o-ib0" secondAttribute="bottom" constant="64" id="OfZ-0e-7eZ"/>
+                                    <constraint firstItem="gVa-il-aBY" firstAttribute="height" secondItem="1Ma-1W-DHM" secondAttribute="height" id="oVP-cJ-hmX"/>
+                                    <constraint firstItem="1Ma-1W-DHM" firstAttribute="top" secondItem="gVa-il-aBY" secondAttribute="bottom" constant="20" id="uyP-pN-PwI"/>
+                                    <constraint firstItem="SQt-0o-ib0" firstAttribute="width" secondItem="1Ma-1W-DHM" secondAttribute="width" id="x09-zv-akc"/>
+                                    <constraint firstItem="1Ma-1W-DHM" firstAttribute="leading" secondItem="SQt-0o-ib0" secondAttribute="trailing" constant="20" id="xzU-Em-L6K"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZBf-DE-zha" secondAttribute="trailing" id="Twk-8v-b6W"/>
+                            <constraint firstItem="ZBf-DE-zha" firstAttribute="leading" secondItem="bzv-d6-46u" secondAttribute="leading" id="bbQ-Q1-pPU"/>
+                            <constraint firstItem="ZBf-DE-zha" firstAttribute="bottom" secondItem="5U1-3o-Wtt" secondAttribute="top" id="hQ0-dj-tmB"/>
+                            <constraint firstItem="ZBf-DE-zha" firstAttribute="top" secondItem="bzv-d6-46u" secondAttribute="top" id="zbu-jL-7e3"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="シャッフル" id="or9-fd-w5U">
+                        <barButtonItem key="rightBarButtonItem" title="シャッフル" id="DcN-Ki-LXK" userLabel="シャッフル">
+                            <connections>
+                                <action selector="changePositonForViews:" destination="euT-pe-ZFe" id="dY0-Sa-hUC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="blueVIew" destination="1Ma-1W-DHM" id="PjO-gW-mmJ"/>
+                        <outlet property="contentView" destination="ZBf-DE-zha" id="D2G-Po-lNG"/>
+                        <outlet property="redView" destination="gVa-il-aBY" id="he3-Mz-0ba"/>
+                        <outlet property="yellowView" destination="SQt-0o-ib0" id="xMF-gw-32n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ET-ot-sSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1723" y="353"/>
+        </scene>
+    </scenes>
+</document>

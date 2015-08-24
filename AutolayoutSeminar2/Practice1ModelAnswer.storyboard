@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MTt-PL-ate">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Yro-CK-ZpK">
+            <objects>
+                <viewController id="MTt-PL-ate" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SBy-fs-w62"/>
+                        <viewControllerLayoutGuide type="bottom" id="wv4-2v-3rf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="phM-Ie-70a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMe-j8-YsS">
+                                <rect key="frame" x="474" y="230" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="mMq-6o-G44"/>
+                                    <constraint firstAttribute="height" constant="80" id="w0w-Iq-L5I"/>
+                                </constraints>
+                                <state key="normal" title="ボタン２">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipo-te-Q3t">
+                                <rect key="frame" x="46" y="230" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="1HM-iS-vMI"/>
+                                    <constraint firstAttribute="width" constant="80" id="ugt-r1-J5x"/>
+                                </constraints>
+                                <state key="normal" title="ボタン１">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGD-CG-zOM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="se1-S8-baB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gGD-CG-zOM" firstAttribute="top" secondItem="phM-Ie-70a" secondAttribute="topMargin" id="6LG-PH-Dt6"/>
+                            <constraint firstItem="gGD-CG-zOM" firstAttribute="leading" secondItem="phM-Ie-70a" secondAttribute="leadingMargin" constant="-16" id="G9h-fj-HYL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LMe-j8-YsS" secondAttribute="trailing" constant="30" id="Ke8-uQ-Bpn"/>
+                            <constraint firstItem="ipo-te-Q3t" firstAttribute="top" secondItem="gGD-CG-zOM" secondAttribute="bottom" constant="30" id="YXN-vI-sgv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gGD-CG-zOM" secondAttribute="trailing" constant="-16" id="gXx-v8-tB9"/>
+                            <constraint firstItem="LMe-j8-YsS" firstAttribute="top" secondItem="gGD-CG-zOM" secondAttribute="bottom" constant="30" id="nc0-SP-YI2"/>
+                            <constraint firstItem="ipo-te-Q3t" firstAttribute="leading" secondItem="phM-Ie-70a" secondAttribute="leadingMargin" constant="30" id="uqd-0N-wZm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BTB-OV-732" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="186" y="746"/>
+        </scene>
+    </scenes>
+</document>

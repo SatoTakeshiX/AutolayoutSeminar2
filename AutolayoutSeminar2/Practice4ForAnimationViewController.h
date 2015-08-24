@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Practice4ForAnimationViewController.h
 //  AutolayoutSeminar2
 //
 //  Created by satoutakeshi on 2015/08/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface Practice4ForAnimationViewController : UIViewController
 
 @end
-

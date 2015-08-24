@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		30BBA6571B89CB5A00FEE932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA6561B89CB5A00FEE932 /* main.m */; };
 		30BBA65A1B89CB5A00FEE932 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA6591B89CB5A00FEE932 /* AppDelegate.m */; };
-		30BBA65D1B89CB5A00FEE932 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA65C1B89CB5A00FEE932 /* ViewController.m */; };
 		30BBA6601B89CB5A00FEE932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA65E1B89CB5A00FEE932 /* Main.storyboard */; };
 		30BBA6621B89CB5A00FEE932 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6611B89CB5A00FEE932 /* Images.xcassets */; };
 		30BBA6651B89CB5A00FEE932 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6631B89CB5A00FEE932 /* LaunchScreen.xib */; };
 		30BBA6711B89CB5A00FEE932 /* AutolayoutSeminar2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA6701B89CB5A00FEE932 /* AutolayoutSeminar2Tests.m */; };
+		30BBA6801B89E9DB00FEE932 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA67F1B89E9DB00FEE932 /* MainTableViewController.m */; };
+		30BBA6851B89EB3C00FEE932 /* Practice1ModelAnswer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6841B89EB3C00FEE932 /* Practice1ModelAnswer.storyboard */; };
+		30BBA6871B89EB6B00FEE932 /* Practice1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6861B89EB6B00FEE932 /* Practice1.storyboard */; };
+		30BBA6891B89ED8200FEE932 /* Practice2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6881B89ED8200FEE932 /* Practice2.storyboard */; };
+		30BBA68B1B89ED9B00FEE932 /* Practice2ModelAnswer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA68A1B89ED9B00FEE932 /* Practice2ModelAnswer.storyboard */; };
+		30BBA6901B89EE6B00FEE932 /* Practice3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA68F1B89EE6B00FEE932 /* Practice3.storyboard */; };
+		30BBA6921B89EE7700FEE932 /* Practice4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6911B89EE7700FEE932 /* Practice4.storyboard */; };
+		30BBA6941B89EE8B00FEE932 /* Practice3ModelAnswer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6931B89EE8B00FEE932 /* Practice3ModelAnswer.storyboard */; };
+		30BBA6961B89EE9700FEE932 /* Practice4ModelAnswer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BBA6951B89EE9700FEE932 /* Practice4ModelAnswer.storyboard */; };
+		30BBA69C1B89F15F00FEE932 /* Practice4ForAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA69B1B89F15F00FEE932 /* Practice4ForAnimationViewController.m */; };
+		30BBA6A01B89F38A00FEE932 /* Practice4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBA69F1B89F38A00FEE932 /* Practice4ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +42,26 @@
 		30BBA6561B89CB5A00FEE932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30BBA6581B89CB5A00FEE932 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30BBA6591B89CB5A00FEE932 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30BBA65B1B89CB5A00FEE932 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30BBA65C1B89CB5A00FEE932 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30BBA65F1B89CB5A00FEE932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30BBA6611B89CB5A00FEE932 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30BBA6641B89CB5A00FEE932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		30BBA66A1B89CB5A00FEE932 /* AutolayoutSeminar2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutSeminar2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BBA66F1B89CB5A00FEE932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30BBA6701B89CB5A00FEE932 /* AutolayoutSeminar2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutSeminar2Tests.m; sourceTree = "<group>"; };
+		30BBA67E1B89E9DB00FEE932 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		30BBA67F1B89E9DB00FEE932 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		30BBA6841B89EB3C00FEE932 /* Practice1ModelAnswer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice1ModelAnswer.storyboard; sourceTree = "<group>"; };
+		30BBA6861B89EB6B00FEE932 /* Practice1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice1.storyboard; sourceTree = "<group>"; };
+		30BBA6881B89ED8200FEE932 /* Practice2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice2.storyboard; sourceTree = "<group>"; };
+		30BBA68A1B89ED9B00FEE932 /* Practice2ModelAnswer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice2ModelAnswer.storyboard; sourceTree = "<group>"; };
+		30BBA68F1B89EE6B00FEE932 /* Practice3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice3.storyboard; sourceTree = "<group>"; };
+		30BBA6911B89EE7700FEE932 /* Practice4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice4.storyboard; sourceTree = "<group>"; };
+		30BBA6931B89EE8B00FEE932 /* Practice3ModelAnswer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice3ModelAnswer.storyboard; sourceTree = "<group>"; };
+		30BBA6951B89EE9700FEE932 /* Practice4ModelAnswer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Practice4ModelAnswer.storyboard; sourceTree = "<group>"; };
+		30BBA69A1B89F15F00FEE932 /* Practice4ForAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Practice4ForAnimationViewController.h; sourceTree = "<group>"; };
+		30BBA69B1B89F15F00FEE932 /* Practice4ForAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice4ForAnimationViewController.m; sourceTree = "<group>"; };
+		30BBA69E1B89F38A00FEE932 /* Practice4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Practice4ViewController.h; sourceTree = "<group>"; };
+		30BBA69F1B89F38A00FEE932 /* Practice4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice4ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +103,15 @@
 		30BBA6531B89CB5A00FEE932 /* AutolayoutSeminar2 */ = {
 			isa = PBXGroup;
 			children = (
+				30BBA67D1B89CB9700FEE932 /* Practice4 */,
+				30BBA67C1B89CB9200FEE932 /* Practice3 */,
+				30BBA67B1B89CB8B00FEE932 /* Practice2 */,
+				30BBA67A1B89CB8500FEE932 /* Practice1 */,
 				30BBA6581B89CB5A00FEE932 /* AppDelegate.h */,
 				30BBA6591B89CB5A00FEE932 /* AppDelegate.m */,
-				30BBA65B1B89CB5A00FEE932 /* ViewController.h */,
-				30BBA65C1B89CB5A00FEE932 /* ViewController.m */,
 				30BBA65E1B89CB5A00FEE932 /* Main.storyboard */,
+				30BBA67E1B89E9DB00FEE932 /* MainTableViewController.h */,
+				30BBA67F1B89E9DB00FEE932 /* MainTableViewController.m */,
 				30BBA6611B89CB5A00FEE932 /* Images.xcassets */,
 				30BBA6631B89CB5A00FEE932 /* LaunchScreen.xib */,
 				30BBA6541B89CB5A00FEE932 /* Supporting Files */,
@@ -117,6 +143,54 @@
 				30BBA66F1B89CB5A00FEE932 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30BBA67A1B89CB8500FEE932 /* Practice1 */ = {
+			isa = PBXGroup;
+			children = (
+				30BBA6861B89EB6B00FEE932 /* Practice1.storyboard */,
+				30BBA6841B89EB3C00FEE932 /* Practice1ModelAnswer.storyboard */,
+			);
+			name = Practice1;
+			sourceTree = "<group>";
+		};
+		30BBA67B1B89CB8B00FEE932 /* Practice2 */ = {
+			isa = PBXGroup;
+			children = (
+				30BBA6881B89ED8200FEE932 /* Practice2.storyboard */,
+				30BBA68A1B89ED9B00FEE932 /* Practice2ModelAnswer.storyboard */,
+			);
+			name = Practice2;
+			sourceTree = "<group>";
+		};
+		30BBA67C1B89CB9200FEE932 /* Practice3 */ = {
+			isa = PBXGroup;
+			children = (
+				30BBA68F1B89EE6B00FEE932 /* Practice3.storyboard */,
+				30BBA6931B89EE8B00FEE932 /* Practice3ModelAnswer.storyboard */,
+			);
+			name = Practice3;
+			sourceTree = "<group>";
+		};
+		30BBA67D1B89CB9700FEE932 /* Practice4 */ = {
+			isa = PBXGroup;
+			children = (
+				30BBA69D1B89F36500FEE932 /* ModelAnswer */,
+				30BBA6911B89EE7700FEE932 /* Practice4.storyboard */,
+				30BBA69E1B89F38A00FEE932 /* Practice4ViewController.h */,
+				30BBA69F1B89F38A00FEE932 /* Practice4ViewController.m */,
+			);
+			name = Practice4;
+			sourceTree = "<group>";
+		};
+		30BBA69D1B89F36500FEE932 /* ModelAnswer */ = {
+			isa = PBXGroup;
+			children = (
+				30BBA6951B89EE9700FEE932 /* Practice4ModelAnswer.storyboard */,
+				30BBA69A1B89F15F00FEE932 /* Practice4ForAnimationViewController.h */,
+				30BBA69B1B89F15F00FEE932 /* Practice4ForAnimationViewController.m */,
+			);
+			name = ModelAnswer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				30BBA6601B89CB5A00FEE932 /* Main.storyboard in Resources */,
+				30BBA6941B89EE8B00FEE932 /* Practice3ModelAnswer.storyboard in Resources */,
+				30BBA6901B89EE6B00FEE932 /* Practice3.storyboard in Resources */,
+				30BBA6871B89EB6B00FEE932 /* Practice1.storyboard in Resources */,
 				30BBA6651B89CB5A00FEE932 /* LaunchScreen.xib in Resources */,
+				30BBA6921B89EE7700FEE932 /* Practice4.storyboard in Resources */,
 				30BBA6621B89CB5A00FEE932 /* Images.xcassets in Resources */,
+				30BBA6891B89ED8200FEE932 /* Practice2.storyboard in Resources */,
+				30BBA6851B89EB3C00FEE932 /* Practice1ModelAnswer.storyboard in Resources */,
+				30BBA6961B89EE9700FEE932 /* Practice4ModelAnswer.storyboard in Resources */,
+				30BBA68B1B89ED9B00FEE932 /* Practice2ModelAnswer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BBA65D1B89CB5A00FEE932 /* ViewController.m in Sources */,
 				30BBA65A1B89CB5A00FEE932 /* AppDelegate.m in Sources */,
 				30BBA6571B89CB5A00FEE932 /* main.m in Sources */,
+				30BBA6A01B89F38A00FEE932 /* Practice4ViewController.m in Sources */,
+				30BBA6801B89E9DB00FEE932 /* MainTableViewController.m in Sources */,
+				30BBA69C1B89F15F00FEE932 /* Practice4ForAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +434,7 @@
 				INFOPLIST_FILE = AutolayoutSeminar2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,6 +445,7 @@
 				INFOPLIST_FILE = AutolayoutSeminar2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
